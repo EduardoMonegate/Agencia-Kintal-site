@@ -1,0 +1,276 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+h2{
+	font-family: 'Anton', sans-serif;
+	font-size: 38px;
+}
+
+h1{
+	color: #802000;
+	font-size: 8px;
+	line-height: 85px;
+}
+
+h3{
+ font-family: 'Anton', sans-serif;
+ color: white;
+ margin-top: 20px;
+ margin-bottom: -5px;
+}
+
+h4{
+	background: #c83a0b;
+	padding: 12px;
+	font-family: 'Anton', sans-serif;
+	
+}
+
+
+
+/* Layout
+-----------------------------*/
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+/* Barra de navegação
+-----------------------------*/
+nav.navbar-transparente {	
+	background: rgba(0,0,0,0.6);
+	
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #c83a0b;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.corHeader{
+	background: black ;
+}
+
+
+/*estilo do botao*/
+
+.btn-info {
+    color: #fff;
+    background-color: #c83a0b;
+    border-color: #c83a0b;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color:#090100;
+    border-color: #090100;
+}
+
+.btn {
+    display: inline-block;
+	font-weight: 400;
+	
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .65rem 75px;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* sessao de portfolio */
+
+.portfolio {
+	background: #c83a0b;
+	margin-top: 45px;
+}
+
+.btn-cor{
+	background-color: #090100;
+	color: white;
+}
+
+.btn-cor:hover{
+	background-color: white;
+	color: black;
+}
+
+.margint{
+	margin-top: 85px;
+}
+
+/* clientes */
+
+#clientes{
+	background: #f4f4f4;
+}
+
+
+input{
+	width: 200px;
+}
+
+.col-md-2{
+	text-align: center;
+}
+
+.barraC{
+	border-bottom: 10px solid #c83a0b;
+	width: 210px;
+	margin-bottom: 20px;
+	margin-top: -13px;
+}
+
+/*contato*/
+ 
+.marginl{
+	margin-left: 13px;
+
+}
+.barra{
+	border-bottom: 10px solid #c83a0b;
+	width: 100px;
+}
+.center{
+	text-align: center;
+}
+
+/* footer*/
+
+footer{
+	background: #090100;
+	margin-top: 25px;
+	color: white;
+	padding: 20px;
+}
+
+.tamanho{
+	margin-top: 45px;
+}
+
+.alinhaF{
+	margin-left: 60px;
+}
+
+/* agencia */
+
+#agencia{
+	height: 300px;
+	background: #f4f4f4;
+}
+
+.tamanhoA{
+	margin-top: 120px;
+}
+
+.pA{
+	font-size: 20px;
+	
+}
+
+.barraA{
+	border-bottom: 10px solid #c83a0b;
+	width: 300px;
+	
+}
+
+/*portfolio*/
+
+.col-md-3{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.col-md-3 img {
+	transition: 1s;
+}
+
+.col-md-3 img:hover{
+	transform: scale(1.1,1.1);
+}
+
+/*botao whatsapp*/
+
+.whatsapp{
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #25d366 ;
+	color: white;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 1px 1px 2px #888;
+	z-index: 1000;
+
+}
+
+.fa-whatsapp{
+	margin-top: 16px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.col-md-6{
+		text-align: center;
+	}
+
+	.alinhaF{
+		margin-left: 35px;
+	}
+
+
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.col-md-6{
+		text-align: center;
+	}
+
+	.alinhaF{
+		margin-left: 35px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1 {
+		font-size: 4em;
+	}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h1 {
+		font-size: 5em;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 6em;
+	}
+}
+
+
